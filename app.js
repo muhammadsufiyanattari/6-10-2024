@@ -115,26 +115,53 @@
 
 
 
-let form=document.getElementById('form')
-let userName=document.getElementById('userName').value
-let male=document.getElementById('male').value
-let female=document.getElementById('female').value
-let other=document.getElementById('others').value
+// let form=document.getElementById('form')
+// let userName=document.getElementById('userName').value
+// let male=document.getElementById('male').value
+// let female=document.getElementById('female').value
+// let other=document.getElementById('others').value
 
 
 
-console.log(userName,male,female,other);
+// console.log(userName,male,female,other);
 
-`Lorem ipsum dolor sit amet
+// `Lorem ipsum dolor sit amet
 
 
-consectetur, adipisicing elit. Consequuntur nihil ipsum
- perferendis, exercitationem praesentium dolore enim placeat 
- laboriosam fugit hic modi beatae? Iure minima, beatae neque
-  inventore magnam iste voluptas.lorem
-Lorem ipsum dolor 
-it amet consectetur adipisicing elit.
- Nesciunt molestiae esse tenetur, repellat
-  eius incidunt obcaecati sapiente officiis
-   quibusdam error mollitia quis blanditiis quae labore
-rerum consequuntur vitae delectus ex.`
+for (let i = 5; i >=1 ; i--) {
+ for (let j = i; j >=1 ; j--) {
+  document.write(' ',i);
+ }
+ document.write(  "<br>")
+
+}
+
+for (let i = 1; i <=5 ; i++) {
+  for (let j = i; j <=5 ; j++) {
+   document.write(' ',i);
+  }
+  document.write(  "<br>")
+ 
+ }
+ 
+ for (let i = 1; i <=5 ; i++) {
+  for (let j = i; j <=5 ; j++) {
+   document.write(' ',j ,'*');
+  }
+  document.write(  "<br>")
+ 
+ }
+ for (let i = 5; i >=1 ; i--) {
+  for (let j = i; j >=1 ; j--) {
+   document.write(" ",j);
+  }
+  document.write(  "<br>")
+ 
+ }
+ for (let i = 1; i <=5 ; i++) {
+  for (let j = 1; j <=i ; j++) {
+   document.write(" ",i);
+  }
+  document.write(  "<br>")
+ 
+ }
