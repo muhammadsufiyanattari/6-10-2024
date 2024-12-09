@@ -128,40 +128,77 @@
 // `Lorem ipsum dolor sit amet
 
 
-for (let i = 5; i >=1 ; i--) {
- for (let j = i; j >=1 ; j--) {
-  document.write(' ',i);
- }
- document.write(  "<br>")
+// for (let i = 5; i >=1 ; i--) {
+//  for (let j = i; j >=1 ; j--) {
+//   document.write(' ',i);
+//  }
+//  document.write(  "<br>")
 
-}
+// }
 
-for (let i = 1; i <=5 ; i++) {
-  for (let j = i; j <=5 ; j++) {
-   document.write(' ',i);
-  }
-  document.write(  "<br>")
+// for (let i = 1; i <=5 ; i++) {
+//   for (let j = i; j <=5 ; j++) {
+//    document.write(' ',i);
+//   }
+//   document.write(  "<br>")
  
- }
+//  }
  
- for (let i = 1; i <=5 ; i++) {
-  for (let j = i; j <=5 ; j++) {
-   document.write(' ',j ,'*');
-  }
-  document.write(  "<br>")
+//  for (let i = 1; i <=5 ; i++) {
+//   for (let j = i; j <=5 ; j++) {
+//    document.write(' ',j ,'*');
+//   }
+//   document.write(  "<br>")
  
- }
- for (let i = 5; i >=1 ; i--) {
-  for (let j = i; j >=1 ; j--) {
-   document.write(" ",j);
-  }
-  document.write(  "<br>")
+//  }
+//  for (let i = 5; i >=1 ; i--) {
+//   for (let j = i; j >=1 ; j--) {
+//    document.write(" ",j);
+//   }
+//   document.write(  "<br>")
  
- }
- for (let i = 1; i <=5 ; i++) {
-  for (let j = 1; j <=i ; j++) {
-   document.write(" ",i);
-  }
-  document.write(  "<br>")
+//  }
+//  for (let i = 1; i <=5 ; i++) {
+//   for (let j = 1; j <=i ; j++) {
+//    document.write(" ",i);
+//   }
+//   document.write(  "<br>")
  
- }
+//  }
+
+
+
+// var dateRamdan=new Date('1 march 2024')
+// var date=new Date();
+// var diff=date-dateRamdan
+// var day=diff/(1000*60*60*24)
+// var month=diff/(1000*60*60*24*30)
+// var min=diff/(1000*60*60)
+// var sec=diff/(1000*60)
+// document.write('<h1> COMING SOON RAMDAN</h1>',
+//    'Ramdan Days : ', Math.floor(day),'<br> ',
+//    'Ramdan Month : ', Math.floor(month),' <br>',
+// 'Ramdan Minutes : ', Math.floor(min),'<br> ',
+// 'Ramdan Secand: ', Math.floor(sec),'<br> ',)
+
+
+
+
+
+
+
+
+
+                   // Age Calculater  
+
+
+let user =prompt("Enter your date of brith") 
+var oldDate =new Date(user)
+var nDate =new Date()
+var minus=nDate-oldDate
+
+var multi=minus/(1000*60*60*24*30*12)
+document.write('<b>On referance date</b> ',oldDate
+    ,'<br>'
+    ,Math.floor(multi) ,'<b> Years old</b>'
+)
